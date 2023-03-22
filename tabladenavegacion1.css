@@ -1,0 +1,158 @@
+body .barradebusqueda {
+    border: 1px solid #333333;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 100px;
+}
+
+body .barradebusqueda .izquierda-derecha {
+    display: flex;
+    gap: 400px;
+}
+
+body .barradebusqueda .izquierda-derecha .izquierda { 
+    gap: 80px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+body .barradebusqueda .izquierda-derecha .izquierda .logo > span {
+    font-size: 30px;
+    color: #c01f1f;
+}
+
+body .barradebusqueda .izquierda-derecha .izquierda .paginas {
+    font-size: 16px;
+    display: flex;
+    gap: 48px;
+}
+
+body .barradebusqueda .izquierda-derecha .derecha {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+body .barradebusqueda .izquierda-derecha .derecha .boton-1 >button {
+    border: 2px solid #c01f1f;
+    background: none;
+    border-radius: 5px;
+    color: #c01f1f;
+    cursor: pointer;
+    padding: 10px 30px;
+    margin: 0 12px;
+}
+
+body .barradebusqueda .izquierda-derecha .derecha .boton-2 >button {
+    border: none;
+    background: #c01f1f;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 30px;
+    margin: 0 12px;
+}
+
+body .partedos {
+    padding: 80px 133px;
+    background: #181818;
+}
+
+body .partedos .logo >span {
+    font-size: 30px;
+    color: #d31313;
+ 
+}
+
+body .partedos .izq-der {
+    align-items: center;
+    display: flex;
+    gap: 375px;
+}
+
+body .partedos .izq-der .izq > p {
+    color: #ffffff;
+    margin: 30px 0;
+    font-size: 16px;
+    width: 360px;
+}
+
+body .partedos .izq-der .izq .iconos {
+    display: flex;
+    text-align: center;
+    gap: 0 30px;
+}
+
+body .partedos .izq-der .izq .iconos .android > p {
+    font-size: 13px;
+    color: #ffffff;
+}
+
+body .partedos .izq-der .izq .iconos .android > span {
+    color: #c01f1f;
+    font-size: 20px;
+}
+
+body .partedos .izq-der .izq .iconos .ios > p {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+body .partedos .izq-der .izq .iconos .ios > span {
+    color: #c01f1f;
+    font-size: 20px;
+}
+
+body .partedos .izq-der .izq .iconos .windows > p {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+body .partedos .izq-der .izq .iconos .windows > span {
+    color: #c01f1f;
+    font-size: 20px;
+}
+
+body .partedos .izq-der .der {
+    display: flex;
+    gap: 30px;
+}
+
+body .partedos .izq-der .der .otro .enlaces {
+    color: #c01f1f;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+body .partedos .izq-der .der .otro .enlaces > h4 {
+    font-size: 18px;
+}
+
+body .partedos .izq-der .der .otro .enlaces > a {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+body .partedos .izq-der .der .otro .redes {
+    padding: 18px 0;
+}
+
+body .partedos .izq-der .der .otro .redes > a {
+    margin: 5px;
+    color:#c01f1f;
+    font-size: 5px;
+}
+
+body .fecha {
+    background: #333333;
+    border: 2px solid #3d3b3b;
+    text-align: center;
+}
+
+body .fecha > h4 {
+    font-size: 12px;
+    color: #ffffff;
+}
